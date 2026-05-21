@@ -7,3 +7,4 @@ python-dotenv
 PyMuPDF
 rank-bm25
 nltk
+PyPDF2
