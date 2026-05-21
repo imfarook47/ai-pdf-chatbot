@@ -1,6 +1,7 @@
 import streamlit as st
 from pdf_utils import extract_text_from_pdf
 
+
 from rag import (
     chunk_text,
     create_embeddings,
@@ -11,7 +12,7 @@ from rag import (
     load_index
 )
 
-from image_utils import extract_images_from_pdf
+
 
 from groq import Groq
 import os
